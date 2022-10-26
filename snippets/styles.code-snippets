@@ -1,0 +1,123 @@
+{
+  "comment-header": {
+    "prefix": [
+      "n7-comment-header",
+      "ns-comment-header"
+    ],
+    "body": [
+      "/* ------------------------------------ *\\",
+      "   #${1:${TM_FILENAME_BASE/_*([\\w-]+)/${1:/upcase}/gi}}",
+      "\\* ------------------------------------ */",
+      "$0"
+    ],
+    "description": "n7 comment header"
+  },
+  "font-family": {
+    "prefix": [
+      "ff",
+      "n7-font-family",
+      "ns-font-family"
+    ],
+    "body": [
+      "font-family: ${1|$font-family-main,$font-family-headings|};"
+    ],
+    "description": "n7 font-family"
+  },
+  "font-size": {
+    "prefix": [
+      "fs",
+      "n7-font-size",
+      "ns-font-size"
+    ],
+    "body": [
+      "font-size: ${1|$font-size-xxxl,$font-size-xxl,$font-size-xl,$font-size-l,$font-size-m,$font-size-s,$font-size-xs|};"
+    ],
+    "description": "n7 font-size"
+  },
+  "font-weight": {
+    "prefix": [
+      "fw",
+      "n7-font-weight",
+      "ns-font-weight"
+    ],
+    "body": [
+      "font-weight: ${1|$font-weight-normal,$font-weight-medium,$font-weight-bold,$font-weight-black|};"
+    ],
+    "description": "n7 font-weight"
+  },
+  "margin": {
+    "prefix": [
+      "mr",
+      "n7-margin",
+      "ns-margin"
+    ],
+    "body": [
+      "margin: ${1|$space,$space $space,$space $space $space $space|};"
+    ],
+    "description": "n7 margin"
+  },
+  "padding": {
+    "prefix": [
+      "pd",
+      "n7-padding",
+      "ns-padding"
+    ],
+    "body": [
+      "padding: ${1|$space;,$space $space;,$space $space $space $space;|}"
+    ],
+    "description": "n7 padding"
+  },
+  "color": {
+    "prefix": [
+      "cl",
+      "n7-color",
+      "ns-color"
+    ],
+    "body": [
+      "color: ${1|$color-text,$color-text-inverse,$color-text-light,$color-text-link,$color-text-link-hover|};"
+    ],
+    "description": "n7 color"
+  },
+  "border": {
+    "prefix": [
+      "br",
+      "n7-border",
+      "ns-border"
+    ],
+    "body": [
+      "border: 1px solid ${1|$color-border-light,$color-border-normal|};"
+    ],
+    "description": "n7 border color"
+  },
+  "background-color": {
+    "prefix": [
+      "bc",
+      "n7-background-color",
+      "ns-background-color"
+    ],
+    "body": [
+      "background-color: ${1|$color-background-base,$color-background-light,$color-background-medium,$color-background-dark|};"
+    ],
+    "description": "n7 background-color"
+  },
+  "vars-colors": {
+    "prefix": [
+      "n7-var-color",
+      "ns-var-color"
+    ],
+    "body": [
+      "\\$color-${1|border,background,text|}-${2|base,normal,light,medium,dark,inverse,link,hover|}"
+    ],
+    "description": "n7 color variables"
+  },
+  "vars-fonts": {
+    "prefix": [
+      "n7-var-fonts",
+      "ns-var-fonts"
+    ],
+    "body": [
+      "\\$font-${1|size,family|}-${2|main,headings,xxxl,xxl,xl,l,m,s,xs|}"
+    ],
+    "description": "n7 font variables"
+  }
+}

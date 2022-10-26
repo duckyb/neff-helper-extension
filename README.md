@@ -1,65 +1,37 @@
-# neff-snippets README
+# neff-snippets
 
-This is the README for your extension "neff-snippets". After writing up a brief description, we recommend including the following sections.
+This extension includes some useful snippets be useful for working with NEFF (Net7's Frontend Framework).
 
-## Features
+<!-- ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+|          Prefix           |                  Description                  |                Scope                |
+|            ---            |                      ---                      |                 ---                 |
+| `n7-icon-font`            | Access all of the icon font's class names     | Typescript, JSON, HTML, Javascript  |
+| `n7-layout-config`        | Template for a layout's config                | Typescript                          |
+| `n7-layout-datasource`    | Template for a layout's datasource            | Typescript                          |
+| `n7-layout-eventhandler`  | Template for a layout's eventhandler          | Typescript                          |
+| `n7-layout-ts-component`  | Template for a layout's angular component     | Typescript                          |
+| `n7-layout-template`      | Template for a layout's HTML                  | HTML                                |
+| `n7-span-icon`            | Create a span with an icon class name         | HTML                                |
+| `n7-comment-header`       | Insert a multiline header-comment             | SCSS, CSS                           |
+| `n7-font-family`          | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-font-size`            | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-font-weight`          | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-margin`               | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-padding`              | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-color`                | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-border`               | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-background-color`     | Add this attribute with an embedded variable  | SCSS, CSS                           |
+| `n7-var-color`            | Composes the variable name for colors         | SCSS, CSS                           |
+| `n7-var-fonts`            | Composes the variable name for fonts          | SCSS, CSS                           | -->
 
-For example if there is an image subfolder under your extension project workspace:
+<!-- ## Advanced Tips
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Every prefix has a numberless equivalent. Tired of typing "n7-icon-font"? Just use "ns-icon-font" instead!
+2. You don't need to type every character of the prefix, typing `nsbgcol` will find the "`ns`-`b`ack`g`round-`col`or" snippet!
+3. Type `n7` to see all the available snippets for the file you're working on
+4. Snippets not appearing? Use *"ctrl/cmd" + "space"* to summon them. -->
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Preview
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![preview](https://i.imgur.com/tUEa4ph.gif)

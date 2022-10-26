@@ -1,6 +1,11 @@
 {
   "name": "neff-snippets",
-  "displayName": "neff-snippets",
+  "publisher": "duckyb",
+  "repository": {
+    "url": "https://github.com/duckyb/neff-helper-extension"
+  },
+  "icon": "images/logo.png",
+  "displayName": "NEFF Snippets",
   "description": "Useful snippets for working with Net7's Frontend Framework",
   "version": "0.0.1",
   "engines": {
@@ -13,7 +18,12 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/components.code-snippets"
+      }, {
+        "path": "./snippets/icon-font.code-snippets"
+      }, {
+        "language": "scss",
+        "path": "./snippets/styles.code-snippets"
       }
     ]
   }

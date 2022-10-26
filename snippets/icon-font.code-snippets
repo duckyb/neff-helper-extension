@@ -1,0 +1,13 @@
+{
+  "n7-icon-font": {
+    "prefix": [
+      "n7-icon-font",
+      "ns-icon-font"
+    ],
+    "body": [
+      "n7-icon-${1|action,action-alt,action-alt-2,align-left,angle-double-down,angle-double-left,angle-double-right,angle-double-up,angle-down,angle-left,angle-right,angle-up,archive,archway,arrow-alt-from-bottom,arrow-alt-from-left,arrow-alt-from-right,arrow-alt-from-top,arrow-left,arrow-right,arrows,arrows-h,arrows-v,asterisk,atlas,bell,bell-add,bell-slash,biography,biography-alt,book,book-alt,bookmark,books,books-alt,books1,box,box-alt,box-open,boxes,boxes-alt,building,calendar,calendar-alt,calendar-minus,calendar-plus,camera,camera-alt,camera-retro,caret-down,caret-left,caret-right,caret-up,chart-bars,chart-line,chart-lines,check,check-circle,check-circle1,check-double,check-square,checked,circle,circle-full,clipboard-check,clock,clone,close,close-circle,code,code-branch,code-commit,code-merge,cog,cogs,columns,compass,compress-alt,copy,cross,dashboard,dashboard-add,download,download-2,earth,edit,ellipsis-h,ellipsis-v,enlarge,enlarge2,exclamation,exclamation-circle,exclamation-square,exclamation-triangle,expand,expand-alt,expand-arrows,expand-wide,external,external-link,external-link-alt,external-link-square,external-link-square-alt,external2,eye,eye-slash,facebook,facebook-square,facsimile,fan,file,file-csv,file-excel,file-pdf,file-powerpoint,file-word,file2,file3,folder,folder-minus,folder-open,folder-plus,folder-times,folders,google-plus,google-plus-square,grid,grip-horizontal,grip-vertical,home,illustration,image,images,inbox-in,inbox-out,info,info-circle,info-circle1,info-square,info1,instagram,iswat,letter,letter-alt,life-ring,lightbulb,lightbulb-slash,linkedin,linkedin-square,list,list-ol,list-ul,list1,lock,lock-alt,lock-open,lock-open-alt,manuscript,manuscript-alt,map,map-marker,map-marker-alt,map-pin,map1,map2,menu,minus,minus-circle,movie,movie2,movie3,muruca,object-group,object-ungroup,page-left,page-right,pen,pencil-alt,percorso,pinterest-square,plus,plus-circle,polygon,power,print,redo,redo-alt,redo1,repeat,repeat-1,reply,reply-all,retweet,retweet-alt,scene,scene-alt,search,search-minus,search-plus,search1,share,share2,shrink,shrink2,sphere,th,th-large,th-list,thermometer-empty,thermometer-full,thermometer-half,thermometer-quarter,thermometer-three-quarters,timeline,timeline-alt,times,transcription,trash,trash-alt,tree-icon,twitter,twitter-square,undo,undo-alt,unlink,unlock,unlock-alt,upload,user,user-friends,users,youtube,youtube-square|}$0"
+    ],
+    "description": "Icon font class names",
+    "scope": "typescript, javascript, json, scss, html"
+  },
+}
