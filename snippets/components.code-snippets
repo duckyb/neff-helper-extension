@@ -112,6 +112,12 @@
       "<n7-footer$0></n7-footer>"
     ]
   },
+  "n7-grid": {
+    "prefix": ["n7-grid", "ns-grid"],
+    "body": [
+      "<n7-grid templateColumns=\"${1:2fr 8fr}\">$2</n7-grid>"
+    ]
+  },
   "n7-header": {
     "prefix": ["n7-header", "ns-header"],
     "body": [
