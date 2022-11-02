@@ -70,6 +70,12 @@
       "<n7-chart$0></n7-chart>"
     ]
   },
+  "n7-container": {
+    "prefix": ["n7-container", "ns-container"],
+    "body": [
+      "<n7-container$0></n7-container>"
+    ]
+  },
   "n7-content-placeholder": {
     "prefix": ["n7-content-placeholder", "ns-content-placeholder"],
     "body": [
@@ -232,6 +238,12 @@
       "<n7-progress-line$0></n7-progress-line>"
     ]
   },
+  "n7-side-scroller": {
+    "prefix": ["n7-side-scroller", "ns-side-scroller"],
+    "body": [
+      "<n7-side-scroller$0></n7-side-scroller>"
+    ]
+  },
   "n7-sidebar-header": {
     "prefix": ["n7-sidebar-header", "ns-sidebar-header"],
     "body": [
@@ -248,6 +260,12 @@
     "prefix": ["n7-simple-autocomplete", "ns-simple-autocomplete"],
     "body": [
       "<n7-simple-autocomplete$0></n7-simple-autocomplete>"
+    ]
+  },
+  "n7-smart-pagination": {
+    "prefix": ["n7-smart-pagination", "ns-smart-pagination"],
+    "body": [
+      "<n7-smart-pagination$0></n7-smart-pagination>"
     ]
   },
   "n7-table": {
