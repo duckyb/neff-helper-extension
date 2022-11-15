@@ -89,6 +89,17 @@
     ],
     "description": "n7 border color"
   },
+  "border-radius": {
+    "prefix": [
+      "br",
+      "n7-border-radius",
+      "ns-border-radius"
+    ],
+    "body": [
+      "border-radius: ${1|$border-radius|};"
+    ],
+    "description": "n7 border radius"
+  },
   "background-color": {
     "prefix": [
       "bc",
