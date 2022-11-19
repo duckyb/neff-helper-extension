@@ -26,6 +26,14 @@
       {
         "language": "scss",
         "path": "./snippets/styles.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/scripts.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/scripts.code-snippets"
       }
     ]
   }

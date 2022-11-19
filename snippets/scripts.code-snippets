@@ -1,0 +1,26 @@
+{
+  "communication-request": {
+    "prefix": ["ns-request", "n7-request"],
+    "body": [
+      "this.communication.request$('${1:requestID}', {",
+      "\tmethod: '${2:GET}',",
+      "\t// params: {}",
+      "\t// urlParams: `${}`",
+      "\tonError: ({ error }) => console.error(error),",
+      "}).subscribe((res) => {",
+      "\t$0",
+      "});",
+    ],
+    "description": "Template for NEFF boilerplate requests"
+  },
+  "dataSource": {
+    "prefix": ["dataSource", "nsds", "nsdatasource"],
+    "body": "dataSource",
+    "description": "reference the dataSource class",
+  },
+  "eventHandler": {
+    "prefix": ["eventHandler", "nseh", "nseventhandler"],
+    "body": "eventHandler",
+    "description": "reference the eventHandler class",
+  }
+}
