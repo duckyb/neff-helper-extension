@@ -22,5 +22,10 @@
     "prefix": ["eventHandler", "nseh", "nseventhandler"],
     "body": "eventHandler",
     "description": "reference the eventHandler class",
+  },
+  "translation": {
+    "prefix": ["ns-translate", "n7-translate"],
+    "body": "_t('${1:scope}#${2:label}')$0",
+    "description": "Insert translated string",
   }
 }

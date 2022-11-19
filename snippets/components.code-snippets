@@ -316,5 +316,9 @@
       "<n7-wizard$0></n7-wizard>"
     ]
   },
+  "translation": {
+    "prefix": ["n7-translate", "ns-translate"],
+    "body": "{{ '${1:scope}#${2:label}' | tranz }}$0"
+  }
 
 }
