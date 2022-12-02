@@ -7,7 +7,7 @@
   "icon": "images/logo.png",
   "displayName": "NEFF Snippets",
   "description": "Useful snippets for working with Net7's Frontend Framework",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.72.0"
   },
