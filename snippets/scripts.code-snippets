@@ -16,12 +16,12 @@
   "dataSource": {
     "prefix": ["dataSource", "nsds", "nsdatasource"],
     "body": "dataSource",
-    "description": "reference the dataSource class",
+    "description": "Reference the dataSource class",
   },
   "eventHandler": {
     "prefix": ["eventHandler", "nseh", "nseventhandler"],
     "body": "eventHandler",
-    "description": "reference the eventHandler class",
+    "description": "Reference the eventHandler class",
   },
   "translation": {
     "prefix": ["ns-translate", "n7-translate"],
